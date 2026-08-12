@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Subscription | Nest & Nook</title>
+
+    <link rel="stylesheet" href="subscribe.css">
+</head>
+
+<body>
+
+    <div class="subscribe-box">
+
+        <h1>Thank You!</h1>
+
+        <div class="line"></div>
+
+        <p id="message"></p>
+
+        <a href="Nest and Nook.html">Back to Home</a>
+
+    </div>
+
+    <script>
+
+        const email = localStorage.getItem("email");
+
+        document.getElementById("message").textContent =
+            "Thank you for subscribing! " + email + " has been added to our newsletter.";
+
+    </script>
+
+</body>
+
+</html>
