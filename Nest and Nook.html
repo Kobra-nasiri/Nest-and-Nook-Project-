@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Nest & Nook | Furniture Online Shop</title>
+
+    <link rel="stylesheet" href="Nest and Nook.css">
+</head>
+
+<body>
+
+    <!-- ================= HEADER ================= -->
+
+    <header class="header">
+
+        <div class="logo-area">
+            <div class="logo-icon">⌂</div>
+
+            <div>
+                <h1>Nest & Nook</h1>
+                <p>Comfort for Every Corner</p>
+            </div>
+        </div>
+
+        <nav class="navigation">
+            <a href="#home" class="nav-link active">Home</a>
+            <a href="#shop" class="nav-link">Shop</a>
+            <a href="#living-room" class="nav-link">Living Room</a>
+            <a href="#bedroom" class="nav-link">Bedroom</a>
+            <a href="contact.html" class="nav-link">Contact</a>
+        </nav>
+
+        <div class="header-right">
+
+            <div class="search-box">
+                <span class="search-icon">⌕</span>
+                <input
+                    type="text"
+                    id="searchInput"
+                    placeholder="Search furniture..."
+                >
+            </div>
+
+
+            <button class="cart-button" id="cartButton" title="Shopping Cart">
+                🛒
+                <span id="cartCount">0</span>
+            </button>
+
+        </div>
+
+    </header>
+
+
+    <!-- ================= HERO ================= -->
+
+    <main>
+
+        <section class="hero" id="home">
+
+            <div class="hero-content">
+
+                <h2>
+                    Create Your<br>
+                    Perfect Home
+                </h2>
+
+                <p>
+                    Modern furniture for every room.<br>
+                    Designed for comfort and style.
+                </p>
+
+                <button class="main-button" id="shopNowButton">
+                    Shop Now
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= FEATURED PRODUCTS ================= -->
+
+        <section class="products-section" id="shop">
+
+            <div class="section-title">
+                <h2>Featured Products</h2>
+                <div class="title-line"></div>
+            </div>
+
+
+            <div class="products-container">
+
+                <!-- PRODUCT 1 -->
+
+                <article class="product-card" data-product="Soft Sofa">
+
+                    <img
+                        src="Soft Sofa.png"
+                        alt="Soft Sofa"
+                    >
+
+                    <div class="product-information">
+
+                        <h3>Soft Sofa</h3>
+
+                        <p class="price">$499.00</p>
+
+                        <div class="product-bottom">
+
+                            
+
+                            <button
+                                class="add-cart"
+                                data-product="Soft Sofa"
+                                data-price="499"
+                            >
+                                🛒 Add to Cart
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PRODUCT 2 -->
+
+                <article class="product-card" data-product="Wood Chair">
+
+                    <img
+                        src="Wood Chair.png"
+                        alt="Wood Chair"
+                    >
+
+                    <div class="product-information">
+
+                        <h3>Wood Chair</h3>
+
+                        <p class="price">$199.00</p>
+
+                        <div class="product-bottom">
+
+
+                            <button
+                                class="add-cart"
+                                data-product="Wood Chair"
+                                data-price="199"
+                            >
+                                🛒 Add to Cart
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PRODUCT 3 -->
+
+                <article class="product-card" data-product="Round Table">
+
+                    <img
+                        src="Round Table.png"
+                        alt="Round Table"
+                    >
+
+                    <div class="product-information">
+
+                        <h3>Round Table</h3>
+
+                        <p class="price">$299.00</p>
+
+                        <div class="product-bottom">
+
+
+                            <button
+                                class="add-cart"
+                                data-product="Round Table"
+                                data-price="299"
+                            >
+                                🛒 Add to Cart
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= SHOP BY ROOM ================= -->
+
+        <section class="rooms-section">
+
+            <div class="section-title">
+                <h2>Shop by Room</h2>
+                <div class="title-line"></div>
+            </div>
+
+
+            <div class="rooms-container">
+
+                <article class="room-card" id="living-room">
+
+                    <img
+                        src="Living room.png"
+                        alt="Living Room"
+                    >
+
+                    <div class="room-name">
+                        <span class="room-icon">🛋</span>
+                        <span>Living Room</span>
+                    </div>
+
+                </article>
+
+
+                <article class="room-card" id="bedroom">
+
+                    <img
+                        src="bedroom.png"
+                        alt="Bedroom"
+                    >
+
+                    <div class="room-name">
+                        <span class="room-icon">🛏</span>
+                        <span>Bedroom</span>
+                    </div>
+
+                </article>
+
+
+                <article class="room-card">
+
+                    <img
+                        src="Dining room.png"
+                        alt="Dining Room"
+                    >
+
+                    <div class="room-name">
+                        <span class="room-icon">🍽</span>
+                        <span>Dining Room</span>
+                    </div>
+
+                </article>
+
+
+                <article class="room-card">
+
+                    <img
+                        src="Office.png"
+                        alt="Office"
+                    >
+
+                    <div class="room-name">
+                        <span class="room-icon">🖥</span>
+                        <span>Office</span>
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= NEWSLETTER ================= -->
+
+        <section class="newsletter">
+
+            <div class="newsletter-icon">
+                ✉
+            </div>
+
+            <div class="newsletter-text">
+
+                <h2>Subscribe to our Newsletter</h2>
+
+                <p>
+                    Get updates on new collections and exclusive offers.
+                </p>
+
+            </div>
+
+            <form id="newsletterForm">
+
+                <input
+                    type="email"
+                    id="emailInput"
+                    placeholder="Enter your email"
+                    required
+                >
+
+                <button type="submit">
+                    Subscribe
+                </button>
+
+            </form>
+
+        </section>
+
+    </main>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer class="footer" id="contact">
+
+        <div class="footer-content">
+
+            <div class="footer-brand">
+
+                <div class="footer-logo">
+                    <span>⌂</span>
+
+                    <div>
+                        <h2>Nest & Nook</h2>
+                        <p>Comfort for Every Corner</p>
+                    </div>
+                </div>
+
+                <p class="footer-description">
+                    We bring beautiful, minimal furniture
+                    to make your house feel like home.
+                </p>
+
+            </div>
+
+
+            <div class="footer-column">
+
+                <h3>Quick Links</h3>
+
+                <a href="#home">About Us</a>
+                <a href="#shop">Shop</a>
+                <a href="#contact">Contact</a>
+                <a href="#">Privacy Policy</a>
+
+            </div>
+
+
+            <div class="footer-column">
+
+                <h3>Customer Service</h3>
+
+                <a href="#">Shipping & Delivery</a>
+                <a href="#">Returns & Exchanges</a>
+                <a href="#">Terms & Conditions</a>
+                <a href="#">FAQs</a>
+
+            </div>
+
+
+            <div class="footer-column social-column">
+
+                <h3>Follow Us</h3>
+
+                <div class="social-icons">
+
+                    <a href="#" title="Instagram">◎</a>
+
+                    <a href="https://www.facebook.com/login/" 
+       title="Facebook" 
+       target="_blank">
+       f
+    </a>
+    
+    <a href="#" title="Pinterest">p</a>
+</div>
+                    <a href="#" title="Pinterest">p</a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="copyright">
+
+            © 2026 Nest & Nook. All rights reserved.
+
+        </div>
+
+    </footer>
+
+
+    <!-- JavaScript -->
+    <script src="Nest and Nook.js"></script>
+
+</body>
+</html>
